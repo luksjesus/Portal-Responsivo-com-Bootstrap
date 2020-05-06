@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>Breaking News</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!--bootstrap-->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="javascrip.js">
+    <script src="https://kit.fontawesome.com/efa9063ee3.js" crossorigin="anonymous"></script>
+    <!--Fonte de icones-->
+</head>
+
+<body>
+    <header class="container header">
+        <img src="imgs/logo.png" class="logo">
+
+        <div class="container_nav">
+            <input type="checkbox" id="menuToggle">
+            <label for="menuToggle" class="menu-icon">
+                <i class="fa fa-bars"></i>
+                <i class="fa fa-times-circle"></i>
+            </label>
+
+            <nav class="nav menu1">
+                <a class="nav-link active" href="index.html">Home</a>
+                <a class="nav-link" href="https://www.em.com.br/politica/">Política</a>
+                <a class="nav-link" href="https://www.em.com.br/economia/  ">Economia</a>
+                <a class="nav-link" href="https://www.em.com.br/nacional/">Nacional</a>
+                <a class="nav-link" href="https://www.em.com.br/internacional/">Internacinal</a>
+                <a class="nav-link" href="https://www.em.com.br/cultura/">Cultura</a>
+                <a class="nav-link" href="https://www.em.com.br/educacao/">Educação</a>
+            </nav>
+        </div>
+
+    </header>
+
+
+    <main class="container">
+
+
+        <section class="row carousel">
+            <div class="col-12 pb-5">
+                <!--SECTION START-->
+                <section class="row">
+                    <!--Start slider news-->
+                    <div class="col-12 col-md-6 pb-0 pb-md-3 pt-2 pr-md-1">
+                        <div id="featured" class="carousel slide carousel" data-ride="carousel">
+                            <!--dots navigate-->
+                            <ol class="carousel-indicators top-indicator">
+                                <li data-target="#featured" data-slide-to="0" class="active"></li>
+                                <li data-target="#featured" data-slide-to="1"></li>
+                                <li data-target="#featured" data-slide-to="2"></li>
+                                <li data-target="#featured" data-slide-to="3"></li>
+                            </ol>
+
+                            <!--carousel inner-->
+                            <div class="carousel-inner">
+                                <!--Item slider-->
+                                <div class="carousel-item active">
+                                    <div class="card border-0 rounded-0 text-light overflow zoom">
+                                        <div class="position-relative">
+                                            <!--thumbnail img-->
+                                            <div class="ratio_left-cover-1 image-wrapper">
+                                                <a
+                                                    href="https://g1.globo.com/sp/sao-paulo/noticia/2020/04/21/medico-de-32-anos-que-atendia-em-upas-da-zona-leste-de-sp-e-do-abc-morre-com-suspeita-de-coronavirus.ghtml">
+                                                    <img class="img-fluid w-100" src="imgs/carrossel1.jpg" alt="medico">
+                                                </a>
+                                            </div>
+                                            <div class="position-absolute p-2 p-lg-3 b-0 w-100 bg-shadow">
+                                                <!--title-->
+                                                <a
+                                                    href="https://g1.globo.com/sp/sao-paulo/noticia/2020/04/21/medico-de-32-anos-que-atendia-em-upas-da-zona-leste-de-sp-e-do-abc-morre-com-suspeita-de-coronavirus.ghtml">
+                                                    <h2 class="h3 post-title text-white my-1"> Médico de 32 anos morre
+                                                        com suspeita de Covid-19 em SP</h2>
+                                                </a>
+                                                <!-- meta title -->
+                                                <div class="news-meta">
+                                                    <span class="news-author">Por<a class="text-white font-weight-bold"
+                                                            href="https://g1.globo.com/"> G1 SP</a></span>
+                                                    <span class="news-date">Abril 21, 2020</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!--Item slider-->
+                                <div class="carousel-item">
+                                    <div class="card border-0 rounded-0 text-light overflow zoom">
+                                        <div class="position-relative">
+                                            <!--thumbnail img-->
+                                            <div class="ratio_left-cover-1 image-wrapper">
+                                                <a
+                                                    href="https://noticias.r7.com/economia/brasileiro-que-tiver-auxilio-negado-pode-fazer-nova-solicitacao-21042020">
+                                                    <img class="img-fluid w-100" src="imgs/carrosel2.jpeg"
+                                                        alt="auxilio">
+                                                </a>
+                                            </div>
+                                            <div class="position-absolute p-2 p-lg-3 b-0 w-100 bg-shadow">
+                                                <!--title-->
+                                                <a
+                                                    href="https://noticias.r7.com/economia/brasileiro-que-tiver-auxilio-negado-pode-fazer-nova-solicitacao-21042020">
+                                                    <h2 class="h3 post-title text-white my-1">Brasileiro que tiver
+                                                        auxílio negado pode fazer nova solicitação</h2>
+                                                </a>
+                                                <!-- meta title -->
+                                                <div class="news-meta">
+                                                    <span class="news-author">Por <a class="text-white font-weight-bold"
+                                                            href="https://www.r7.com/"> R7 </a></span>
+                                                    <span class="news-date">Abril 21, 2020</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!--Item slider-->
+                                <div class="carousel-item">
+                                    <div class="card border-0 rounded-0 text-light overflow zoom">
+                                        <div class="position-relative">
+                                            <!--thumbnail img-->
+                                            <div class="ratio_left-cover-1 image-wrapper">
+                                                <a
+                                                    href="https://g1.globo.com/bemestar/coronavirus/noticia/2020/04/14/mascaras-contra-o-coronavirus-veja-orientacoes-de-como-fazer-quem-deve-usar-e-qual-a-importancia-do-uso.ghtml">
+                                                    <img class="img-fluid w-100" src="imgs/carrossel3.jpg"
+                                                        alt="Bootstrap blog template">
+                                                </a>
+                                            </div>
+                                            <div class="position-absolute p-2 p-lg-3 b-0 w-100 bg-shadow">
+                                                <!--title-->
+                                                <a
+                                                    href="https://g1.globo.com/bemestar/coronavirus/noticia/2020/04/14/mascaras-contra-o-coronavirus-veja-orientacoes-de-como-fazer-quem-deve-usar-e-qual-a-importancia-do-uso.ghtml">
+                                                    <h2 class="h3 post-title text-white my-1">Máscaras contra o
+                                                        coronavírus: guia definitivo mostra como montar, usar, lavar e
+                                                        descartar</h2>
+                                                </a>
+                                                <!-- meta title -->
+                                                <div class="news-meta">
+                                                    <span class="news-author">Por<a class="text-white font-weight-bold"
+                                                            href="https://g1.globo.com/"> G1 SP</a></span>
+                                                    <span class="news-date">Abril 21, 2020</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!--Item slider-->
+                                <div class="carousel-item">
+                                    <div class="card border-0 rounded-0 text-light overflow zoom">
+                                        <div class="position-relative">
+                                            <!--thumbnail img-->
+                                            <div class="ratio_left-cover-1 image-wrapper">
+                                                <a
+                                                    href="https://g1.globo.com/pop-arte/games/noticia/2020/04/16/just-dance-e-boa-opcao-de-exercicios-em-casa-daya-luz-e-campea-brasileira-dao-dicas.ghtml">
+                                                    <img class="img-fluid w-100" src="imgs/carrossel4.jpg"
+                                                        alt="Bootstrap portal template">
+                                                </a>
+                                            </div>
+                                            <div class="position-absolute p-2 p-lg-3 b-0 w-100 bg-shadow">
+                                                <!--title-->
+                                                <a
+                                                    href="https://g1.globo.com/pop-arte/games/noticia/2020/04/16/just-dance-e-boa-opcao-de-exercicios-em-casa-daya-luz-e-campea-brasileira-dao-dicas.ghtml">
+                                                    <h2 class="h3 post-title text-white my-1">'Just Dance' é boa opção
+                                                        de exercícios em casa: Daya Luz e campeã brasileira dão dicas
+                                                    </h2>
+                                                </a>
+                                                <!-- meta title -->
+                                                <div class="news-meta">
+                                                    <span class="news-author">Por<a class="text-white font-weight-bold"
+                                                            href="https://g1.globo.com/"> G1 SP</a></span>
+                                                    <span class="news-date">Abril 21, 2020</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--end item slider-->
+                            </div>
+                            <!--end carousel inner-->
+                        </div>
+
+                        <!--navigation-->
+                        <a class="carousel-control-prev" href="#featured" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#featured" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                    <!--End slider news-->
+
+                    <!--Start box news-->
+                    <div class="col-12 col-md-6 pt-2 pl-md-1 mb-3 mb-lg-4">
+                        <div class="row">
+                            <!--news box-->
+                            <div class="col-6 pb-1 pt-0 pr-1">
+                                <div class="card border-0 rounded-0 text-white overflow zoom">
+                                    <div class="position-relative">
+                                        <!--thumbnail img-->
+                                        <div class="ratio_right-cover-2 image-wrapper">
+                                            <a
+                                                href="https://www.em.com.br/app/noticia/cultura/2020/04/21/interna_cultura,1140474/serie-da-netflix-conta-historia-da-primeira-negra-milionaria-nos-eua.shtml">
+                                                <img class="img-fluid" src="imgs/cultura1.jpg"
+                                                    alt="simple blog template bootstrap">
+                                            </a>
+                                        </div>
+                                        <div class="position-absolute p-2 p-lg-3 b-0 w-100 bg-shadow">
+                                            <!-- category -->
+                                            <a class="p-1 badge badge-primary rounded-0"
+                                                href="https://www.em.com.br/app/noticia/cultura/2020/04/21/interna_cultura,1140474/serie-da-netflix-conta-historia-da-primeira-negra-milionaria-nos-eua.shtml">Cultura</a>
+
+                                            <!--title-->
+                                            <a
+                                                href="https://www.em.com.br/app/noticia/cultura/2020/04/21/interna_cultura,1140474/serie-da-netflix-conta-historia-da-primeira-negra-milionaria-nos-eua.shtml">
+                                                <h2 class="h5 text-white my-1">Série da Netflix conta história da
+                                                    primeira milionária nos EUA</h2>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!--news box-->
+                            <div class="col-6 pb-1 pl-1 pt-0">
+                                <div class="card border-0 rounded-0 text-white overflow zoom">
+                                    <div class="position-relative">
+                                        <!--thumbnail img-->
+                                        <div class="ratio_right-cover-2 image-wrapper">
+                                            <a
+                                                href="https://www.em.com.br/app/noticia/cultura/2020/04/18/interna_cultura,1139784/saiba-quem-se-apresenta-e-como-ver-o-one-world-together-at-home.shtml">
+                                                <img class="img-fluid" src="imgs/cultua.jpg"
+                                                    alt="bootstrap templates for blog">
+                                            </a>
+                                        </div>
+                                        <div class="position-absolute p-2 p-lg-3 b-0 w-100 bg-shadow">
+                                            <!-- category -->
+                                            <a class="p-1 badge badge-primary rounded-0"
+                                                href="https://www.em.com.br/app/noticia/cultura/2020/04/18/interna_cultura,1139784/saiba-quem-se-apresenta-e-como-ver-o-one-world-together-at-home.shtml">Cultura</a>
+                                            <!--title-->
+                                            <a
+                                                href="https://www.em.com.br/app/noticia/cultura/2020/04/18/interna_cultura,1139784/saiba-quem-se-apresenta-e-como-ver-o-one-world-together-at-home.shtml">
+                                                <h2 class="h5 text-white my-1">Saiba quem se apresenta e como ver o 'One
+                                                    world together at home'</h2>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!--news box-->
+                            <div class="col-6 pb-1 pr-1 pt-1">
+                                <div class="card border-0 rounded-0 text-white overflow zoom">
+                                    <div class="position-relative">
+                                        <!--thumbnail img-->
+                                        <div class="ratio_right-cover-2 image-wrapper">
+                                            <a
+                                                href="https://www.em.com.br/app/noticia/politica/2020/04/21/interna_politica,1140605/zema-admite-que-pagamento-de-salarios-de-servidores-e-hoje-uma-incerte.shtml">
+                                                <img class="img-fluid" src="imgs/politica.jpg"
+                                                    alt="bootstrap blog wordpress theme">
+                                            </a>
+                                        </div>
+                                        <div class="position-absolute p-2 p-lg-3 b-0 w-100 bg-shadow">
+                                            <!-- category -->
+                                            <a class="p-1 badge badge-primary rounded-0"
+                                                href="https://www.em.com.br/app/noticia/politica/2020/04/21/interna_politica,1140605/zema-admite-que-pagamento-de-salarios-de-servidores-e-hoje-uma-incerte.shtml">Poítica</a>
+                                            <!--title-->
+                                            <a
+                                                href="https://www.em.com.br/app/noticia/politica/2020/04/21/interna_politica,1140605/zema-admite-que-pagamento-de-salarios-de-servidores-e-hoje-uma-incerte.shtml">
+                                                <h2 class="h5 text-white my-1">Zema admite que pagamento de salários de
+                                                    servidores é hoje uma incerteza</h2>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!--news box-->
+                            <div class="col-6 pb-1 pl-1 pt-1">
+                                <div class="card border-0 rounded-0 text-white overflow zoom">
+                                    <div class="position-relative">
+                                        <!--thumbnail img-->
+                                        <div class="ratio_right-cover-2 image-wrapper">
+                                            <a
+                                                href="https://www.em.com.br/app/noticia/internacional/2020/04/21/interna_internacional,1140679/vacina-contra-o-coronavirus-sera-testada-no-reino-unido-a-partir-de-qu.shtml">
+                                                <img class="img-fluid" src="imgs/internacional.jpg"
+                                                    alt="blog website templates bootstrap">
+                                            </a>
+                                        </div>
+                                        <div class="position-absolute p-2 p-lg-3 b-0 w-100 bg-shadow">
+                                            <!-- category -->
+                                            <a class="p-1 badge badge-primary rounded-0"
+                                                href="https://www.em.com.br/app/noticia/internacional/2020/04/21/interna_internacional,1140679/vacina-contra-o-coronavirus-sera-testada-no-reino-unido-a-partir-de-qu.shtml">Internaconal</a>
+                                            <!--title-->
+                                            <a
+                                                href="https://www.em.com.br/app/noticia/internacional/2020/04/21/interna_internacional,1140679/vacina-contra-o-coronavirus-sera-testada-no-reino-unido-a-partir-de-qu.shtml">
+                                                <h2 class="h5 text-white my-1">Vacina contra o coronavírus será testada
+                                                    no Reino Unido a partir de quinta-feira</h2>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--end news box-->
+                        </div>
+                    </div>
+                    <!--End box news-->
+                </section>
+            </div>
+        </section>
+
+
+        <section class="row">
+
+            <div class="col-12 col-sm-12 col-md-8 col-lg-8 nome1">
+
+                <section class="row secao1">
+                    <div class="col-12">
+                        <section class="row">
+                            <div class="col-12 col-sm-12 col-md-5 col-lg-6  destaque">
+                                <a href="https://reverb.com.br/artigo/stand-up-por-que-cynthia-erivo-merecia-ter-levado-o-oscar-de-melhor-cancao-original" class="links"><img src="imgs/destaque.jpg" alt="Cynthia Erivo" class="img1"></a>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-7 col-lg-6  destaque">
+                                <a href="https://reverb.com.br/artigo/stand-up-por-que-cynthia-erivo-merecia-ter-levado-o-oscar-de-melhor-cancao-original" class="links"><h2>Oscar 2020: Cynthia Erivo emociona plateia com live de “Stand Up”, faixa tema de
+                                    “Harriet”
+                                </h2></a>
+                            </div>
+                        </section>
+                    </div>
+                </section>
+
+                <section class="row secao2">
+
+                    <div class="col-12">
+
+                        <div class="sep-secao1">
+                            <h2>DESTAQUES</h2>
+                        </div>
+
+                        <section class="row">
+
+                            <div class="col-6 secao2-1">
+                                <a href="https://www.em.com.br/app/noticia/cultura/2020/04/21/interna_cultura,1140474/serie-da-netflix-conta-historia-da-primeira-negra-milionaria-nos-eua.shtml" class="links1">
+                                <img src="imgs/cultura1.jpg" alt="">
+                                <h4>Série da Netflix conta história da primeira milionária nos EUA <br></h4></a>
+                                <hr>
+                            </div>
+
+                            <div class="col-6 secao2-1">
+                                <a href="https://www.em.com.br/app/noticia/cultura/2020/04/18/interna_cultura,1139784/saiba-quem-se-apresenta-e-como-ver-o-one-world-together-at-home.shtml" class="links1">
+                                <img src="imgs/cultua.jpg" alt="">
+                                <h4>Saiba quem se apresenta e como ver o 'One world together at home'</h4></a>
+                                <hr>
+                            </div>
+
+                            <div class="col-6 secao2-1">
+                                <a href="https://www.em.com.br/app/noticia/internacional/2020/04/21/interna_internacional,1140679/vacina-contra-o-coronavirus-sera-testada-no-reino-unido-a-partir-de-qu.shtml" class="links1">
+                                <img src="imgs/internacional.jpg" alt="">
+                                <h4>Vacina contra o coronavírus será testada no Reino Unido a partir de quinta-feira
+                                </h4></a>
+                                <hr>
+                            </div>
+
+                            <div class="col-6 secao2-1">
+                                <a href="https://www.em.com.br/app/noticia/politica/2020/04/21/interna_politica,1140605/zema-admite-que-pagamento-de-salarios-de-servidores-e-hoje-uma-incerte.shtml" class="links1">
+                                <img src="imgs/politica.jpg" alt="">
+                                <h4>Zema admite que pagamento de salários deservidores é hoje uma incerteza</h4></a>
+                                <hr>
+                            </div>
+
+
+                        </section>
+
+                    </div>
+
+
+                </section>
+
+                <section class="row secao3 text-center my-3">
+                    <div class="col-12">
+                        <div id="recipeCarousel" class="carousel slide w-100" data-ride="carousel">
+                            <div class="carousel-inner w-100" role="listbox">
+                                <div class="carousel-item row no-gutters active">
+                                    <div class="col-3 float-left"><img class="img-fluid"
+                                            src="imgs/campo.jpg"></div>
+                                    <div class="col-3 float-left"><img class="img-fluid"
+                                            src="imgs/praia.jpg"></div>
+                                    <div class="col-3 float-left"><img class="img-fluid"
+                                            src="imgs/rio.jpg"></div>
+                                    <div class="col-3 float-left"><img class="img-fluid"
+                                            src="imgs/tartaruga.jpg"></div>
+                                </div>
+                                <div class="carousel-item row no-gutters">
+                                    <div class="col-3 float-left"><img class="img-fluid"
+                                            src="imgs/familia.jpg"></div>
+                                    <div class="col-3 float-left"><img class="img-fluid"
+                                            src="imgs/irmas.jpg"></div>
+                                    <div class="col-3 float-left"><img class="img-fluid"
+                                            src="imgs/irmaos.jpg"></div>
+                                    <div class="col-3 float-left"><img class="img-fluid"
+                                            src="imgs/amor.jpg"></div>
+                                </div>
+                            </div>
+                            <a class="carousel-control-prev" href="#recipeCarousel" role="button" data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#recipeCarousel" role="button" data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </div>
+                    </div>
+                </section>
+
+            </div>
+
+            <div class="col-12 col-sm-12 col-md-4 col-lg-4 nome2 ">
+                <section class="row">
+
+                    <div class="col-12 sep-secao">
+                        <h2>MAIS LIDAS</h2>
+                    </div>
+
+                    <div id="recipeCarousel" class="carousel slide w-100" data-ride="carousel">
+                        <div class="carousel-inner w-100" role="listbox">
+                            <div class="carousel-item row no-gutters active">
+                                <a
+                                    href="https://www.em.com.br/app/noticia/gerais/2020/04/21/interna_gerais,1140533/isolamento-faz-coronavirus-em-bh-3-vezes-mais-lento-do-que-no-rio-e-em.shtml">
+                                    <img src="imgs/img1.jpg" alt="" class="img2">
+                                    <h6>Isolamento faz coronavírus em BH 3 vezes mais lento do que no Rio e em SP</h6>
+                                    <hr>
+                                </a>
+                                <a
+                                    href="https://www.em.com.br/app/noticia/gerais/2020/04/21/interna_gerais,1140746/novo-decreto-contra-o-coronavirus-comeca-a-valer-nesta-quarta-em-bh.shtml">
+                                    <img src="imgs/img2.jpeg" alt="" class="img2">
+                                    <h6>Vacina contra o coronavírus será testada no Reino Unido a partir de quinta-feira
+                                    </h6>
+                                    <hr>
+                                </a>
+                                <a
+                                    href="https://www.em.com.br/app/noticia/gerais/2020/04/21/interna_gerais,1140734/em-minas-28-cidades-com-casos-de-coronavirus-nao-tem-respiradores.shtml">
+                                    <img src="imgs/img3.jpg" alt="" class="img2">
+                                    <h6>Novo decreto contra o coronavírus começa a valer nesta quarta em BH; relembre as
+                                        regras</h6>
+                                </a>
+                            </div>
+                            <div class="carousel-item row no-gutters">
+                                <a
+                                    href="https://www.em.com.br/app/noticia/gerais/2020/04/21/interna_gerais,1140642/policial-reformado-surta-e-destroi-guiche-da-gontijo-na-rodoviaria-de.shtml">
+                                    <img src="imgs/img4.jpg" alt="" class="img2">
+                                    <h6>Policial reformado surta e destrói guichê da Gontijo na rodoviária de BH</h6>
+                                    <hr>
+                                </a>
+                                <a
+                                    href="https://www.em.com.br/app/noticia/gerais/2020/04/20/interna_gerais,1140512/contagem-registra-morte-por-covid-19-vitima-era-profissional-da-saude.shtml">
+                                    <img src="imgs/img5.jpg" alt="" class="img2">
+                                    <h6>Contagem registra primeira morte por COVID-19; vítima era profissional da saúde
+                                    </h6>
+                                    <hr>
+                                </a>
+                                <a
+                                    href="https://www.uai.com.br/app/noticia/series-e-tv/2020/04/21/noticias-series-e-tv,257752/bbb20-mari-e-eliminada-com-54-16-dos-votos.shtml?utm_source=hardnews&utm_medium=colunmsites&utm_campaign=score&utm_term=new">
+                                    <img src="imgs/img6.jpg" alt="" class="img2">
+                                    <h6>BBB20: Mari é eliminada com 54,16% dos votos</h6>
+
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="row">
+
+                    <div id="recipeCarousel" class="carousel slide w-100 espaco" data-ride="carousel">
+                        <div class="carousel-inner w-100" role="listbox">
+                            <div class="carousel-item row no-gutters active">
+                                <iframe src="https://www.youtube.com/embed/g3HICKj-4Zs" frameborder="0"
+                                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen class="videos "></iframe>
+                            </div>
+                            <div class="carousel-item row no-gutters">
+                                <iframe src="https://www.youtube.com/embed/yYDJvnDfB2w" frameborder="0"
+                                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen class="videos"></iframe>
+                            </div>
+                        </div>
+                    </div>
+
+                </section>
+
+                <section class="row">
+
+                    <div class="col-12 espaco">
+                        <hr>
+                        
+                        <center>
+                            <a
+                                href="https://www.pucminas.br/destaques/Paginas/default.aspx?_ga=2.185205217.954431149.1587536671-1640467944.1580877375">
+                                <img src="imgs/puc.png" alt="" width="100" height="80">
+                            </a>
+                        </center>
+                    </div>
+
+                </section>
+
+            </div>
+        </section>
+
+
+    </main>
+
+    <footer class="container footer">
+        <section class="row">
+
+            <div class="col-12 col-sm-12 col-md-4 col-lg-4">
+                <section class="row">
+                    <div class="col-12">
+                        <center>
+                            <img src="imgs/logo.png" class="logo footerl" alt="">
+                        </center>
+                    </div>
+                </section>
+            </div>
+
+            <div class="col-12 col-sm-12 col-md-4 col-lg-4">
+                <section class="row">
+                    <div class="col-12">
+                        <center>
+                            <p>
+                                Trabalho final referente ao segundo modulo apresentado à Pontifícia Universidade
+                                Católica de Minas Gerais, como parte das exigências na disciplina de Desenvolvimento de
+                                Interfaces Web
+
+                            </p>
+                        </center>
+                    </div>
+                </section>
+            </div>
+
+            <div class="col-12 col-sm-12 col-md-4 col-lg-4">
+
+                <div class="footers">
+                    <center>
+                        <i class="fab fa-facebook"></i>
+                        <i class="fab fa-instagram"></i>
+                        <i class="fab fa-linkedin"></i>
+                        <i class="fab fa-github"></i>
+                    </center>
+                </div>
+
+            </div>
+
+        </section>
+
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-
+    J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-
+    Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-
+    wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+
+</html>
